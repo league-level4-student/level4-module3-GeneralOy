@@ -32,7 +32,7 @@ class ExceptionsTest {
 	//3. Complete the JUnit test method to test the divide method.
 	@Test
 	public void testDivideByZeroException() {
-		
+		assertEquals(5, ExceptionMethods.divide(5.0,2.0));
 	}
 	
 	//4. In the ExceptionMethods class, write a method called reverseString that takes a

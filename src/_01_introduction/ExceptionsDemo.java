@@ -13,6 +13,11 @@ public class ExceptionsDemo {
 			//e.printStackTrace();
 			System.out.println("test");
 		}
+		try {
+			testMethod2(-1);
+		} catch (Exception e) {
+			CustomException.exitMethod();
+		}
 		// 1. Call testMethod1 with a value less than 5.
 		//    It should give you an error.
 		//    This is because testMethod1 can potentially throw
@@ -45,4 +50,9 @@ public class ExceptionsDemo {
 	
 	// 4. Create a static void method called testMethod2(int x) that throws
 	//    a CustomException if x is negative.
+	public static void testMethod2(int x) throws CustomException {
+		if(x < 0) {
+			throw new CustomException();
+		}
+	}
 }
