@@ -51,13 +51,13 @@ class ExceptionsTest {
 		assertEquals(true, works);
 	}
 
-	/*
+	/**
 	 * 4. In the ExceptionMethods class, write a method called reverseString that
 	 * takes a // String and returns the reverse of that String. It should throw an
 	 * IllegalStateException // if the String passed in is empty
 	 */
 
-	/* 5. Complete the JUnit test method to test the reverseStringMethod. */
+	/** 5. Complete the JUnit test method to test the reverseStringMethod. */
 	@Test
 	public void testReverseString() {
 		boolean works = false;
