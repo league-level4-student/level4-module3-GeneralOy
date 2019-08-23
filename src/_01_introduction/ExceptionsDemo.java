@@ -7,6 +7,7 @@ public class ExceptionsDemo {
 		// All exceptions extend from Java's Exception class.
 		// You can make your own exceptions by making a class that 
 		// extends Exception
+		//System.out.println("13" + 5 + 3);
 		try {
 			testMethod1(7);
 		} catch (Exception e) {
